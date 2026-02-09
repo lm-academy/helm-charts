@@ -1,14 +1,30 @@
 apiVersion: v1
 entries:
+  glitchy-image-processor:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-09T11:02:37.009314+01:00"
+    description: A Helm chart for Glitchy Image Processor
+    digest: b3780e150b77b890b5b9b1dca7ae35acbc4151569cca83832292a06fa62d4e58
+    keywords:
+    - prometheus
+    - monitoring
+    - demo
+    - microservices
+    name: glitchy-image-processor
+    type: application
+    urls:
+    - https://lm-academy.github.io/helm-charts/glitchy-image-processor-0.1.0.tgz
+    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.27.0
-    created: "2024-11-08T17:04:12.968633+01:00"
+    created: "2026-02-09T11:02:37.009803+01:00"
     description: A Helm chart for deploying Nginx to Kubernetes
     digest: bc3c63fe54574d3791a12c831419bd8dba8f7b717d554517498f200b28d053df
     name: nginx
     type: application
     urls:
-    - nginx-0.1.0.tgz
+    - https://lm-academy.github.io/helm-charts/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-08T17:04:12.968406+01:00"
+generated: "2026-02-09T11:02:37.008169+01:00"
